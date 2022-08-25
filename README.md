@@ -76,12 +76,12 @@ use Sohel\TraverseCategory\Facades\TraverseCategory;
 
 class TestClass
 {
-	public function testFunction()
-	{
-		$categoy_ids = TraverseCategory::getAllChildCategoryIds('categories', 'id', 'parent_id', 3);
+  public function testFunction()
+  {
+    $categoy_ids = TraverseCategory::getAllChildCategoryIds('categories', 'id', 'parent_id', 3);
 
-		return $category_ids; //sample output [3, 5, 7, 10, 21, 22, .....]
-	}
+    return $category_ids; //sample output [3, 5, 7, 10, 21, 22, .....]
+  }
 }
 
 ```
@@ -99,12 +99,12 @@ use Sohel\TraverseCategory\Facades\TraverseCategory;
 
 class TestClass
 {
-	public function testFunction()
-	{
-		$categoy_ids = TraverseCategory::getDirectChildCategoryIds('categories', 'id', 'parent_id', 3);
+  public function testFunction()
+  {
+    $categoy_ids = TraverseCategory::getDirectChildCategoryIds('categories', 'id', 'parent_id', 3);
 
-		return $category_ids; //sample output [5, 7, 10]
-	}
+    return $category_ids; //sample output [5, 7, 10]
+  }
 }
 
 ```
