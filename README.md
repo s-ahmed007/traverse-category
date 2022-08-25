@@ -49,21 +49,21 @@ If you have more than 2 level of categories then you may need this.
 
 ```
 Dress
-	-->Men
-		-->Shirt
-		-->Pant
-		-->Shoe
-		.....
-	-->Women
-		-->T-Shirt
-		-->Pant
-		-->Shoe
-		.....
-	-->Kids
-		-->Shirt
-		-->Pant
-		-->Shoe
-		.....
+  -->Men
+	-->Shirt
+	-->Pant
+	-->Shoe
+	.....
+  -->Women
+	-->T-Shirt
+	-->Pant
+	-->Shoe
+	.....
+  -->Kids
+	-->Shirt
+	-->Pant
+	-->Shoe
+	.....
 ```
 Now if you need all hierarchical ids of `dress` category then ultimately you have to get all category ids under `dress`. 
 
