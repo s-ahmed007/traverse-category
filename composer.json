@@ -1,0 +1,31 @@
+{
+    "name": "sohel/traverse-category",
+    "description": "Get child from parent category and parent from child category",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sohel ahmed",
+            "email": "sohel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sohel\\TraverseCategory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sohel\\TraverseCategory\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sohel\\TraverseCategory\\TraverseCategoryServiceProvider"
+            ],
+            "aliases": {
+                "TraverseCategory": "Sohel\\TraverseCategory\\Facades"
+            }
+        }
+    }
+}
