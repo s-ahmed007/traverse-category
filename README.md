@@ -18,7 +18,7 @@ composer require sohel/traverse-category
 
 ## Usage
 
-This package is easy to use. It provides a handful of helpful functions for navigation. This package is auto discovered. So you just need to install this package and use where you need.
+This package is easy to use. It provides a handful of helpful functions. It is auto discovered package. So you just need to install this package and use where you need.
 
 #### [IMPORTANT] What this package does NOT do
 
