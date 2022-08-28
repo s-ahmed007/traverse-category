@@ -13,7 +13,7 @@ class TraverseCategoryServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('traverseCategory', function($app){
+        $this->app->singleton('traverseCategory', function($app){
             return new TraverseCategory();
         });
     }
