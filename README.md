@@ -48,16 +48,22 @@ If you have more than 2 level of categories then you may need this.
 ##### Example:
 
 ```
-Dress
+Clothing
   -->Men
 	-->Shirt
 	-->Pant
 	-->Shoe
+	  -->Sneakers
+	  -->Formal Shoes
+	  -->Sandals
 	.....
   -->Women
 	-->T-Shirt
 	-->Pant
 	-->Shoe
+	  -->Fashion Boots
+	  -->Flip Flops
+	  -->Ballet Flats
 	.....
   -->Kids
 	-->Shirt
@@ -65,7 +71,7 @@ Dress
 	-->Shoe
 	.....
 ```
-Now if you need all hierarchical ids of `dress` category then ultimately you have to get all category ids under `dress`. 
+Now if you need all hierarchical ids of `Clothing` category then ultimately you have to get all category ids under `Clothing`. 
 
 We have a method called `getAllChildCategoryIds()` which provides your desired child ids along with that `parent_id`. You just need to call this method with some parameters. <br>
 Parametes are: `table_name`, `primary_key_column_name`, `parent_id_column_name`, `parent_categroy_id`.
@@ -90,7 +96,7 @@ This method will provide an array of ids. If nothing found then result will be a
 
 ---
 
-We have another method `getDirectChildCategoryIds()` which will provide only the direct child ids. If you need direct child of `dress` category then this will return ids of `men`, `women` and `kids`. <br>
+We have another method `getDirectChildCategoryIds()` which will provide only the direct child ids. If you need direct child of `Clothing` category then this will return ids of `men`, `women` and `kids`. <br>
 This method also receives parameter like above.
 ##### Example:
 
