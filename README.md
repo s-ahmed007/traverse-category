@@ -71,6 +71,8 @@ Clothing
 	-->Shoe
 	.....
 ```
+### Child Id
+---
 Now if you need all hierarchical ids of `Clothing` category then ultimately you have to get all category ids under `Clothing`. 
 
 We have a method called `getAllChildCategoryIds()` which provides your desired child ids along with that `parent_id`. You just need to call this method with some parameters. <br>
@@ -116,6 +118,11 @@ class TestClass
 }
 
 ```
+---
+### Parent Id
+
+To get all hierarchical parent ids we can use `getAllParentCategoryIds()`. Parameters are same as above.
+
 
 ## Contact
 
