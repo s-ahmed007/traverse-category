@@ -74,7 +74,9 @@ Clothing
 Now if you need all hierarchical ids of `Clothing` category then ultimately you have to get all category ids under `Clothing`. 
 
 We have a method called `getAllChildCategoryIds()` which provides your desired child ids along with that `parent_id`. You just need to call this method with some parameters. <br>
-Parametes are: `table_name`, `primary_key_column_name`, `parent_id_column_name`, `parent_categroy_id`.
+Parametes are: `table_name`, `primary_key_column_name`, `parent_id_column_name`, `parent_categroy_id`, `db_connection` (optional).
+
+_Note: default value  of `db_connection` is 'mysql'._
 ##### Example:
 
 ```
