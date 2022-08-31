@@ -2,7 +2,7 @@
 Get child from parent category and parent from child category
 
 ---
-Every time I build another Laravel app where I need all hierarchical child category ids, I find myself re-using the same query over the years. This package allow you to accurately find child category ids of a parent category. This tool allow you to speed up the development progress.
+Every time I build another Laravel app where I need all hierarchical child category ids, I find myself re-using the same query over the years. This package allows you to accurately find child category ids of a parent category. This will speed up the development progress.
 
 ## Installation
 
@@ -56,7 +56,7 @@ Clothing
 	  -->Sneakers
 	  -->Formal Shoes
 	  -->Sandals
-	.....
+	  .....
   -->Women
 	-->T-Shirt
 	-->Pant
@@ -64,7 +64,7 @@ Clothing
 	  -->Fashion Boots
 	  -->Flip Flops
 	  -->Ballet Flats
-	.....
+	  .....
   -->Kids
 	-->Shirt
 	-->Pant
